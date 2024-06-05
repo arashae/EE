@@ -5,3 +5,6 @@ def fp_formula(value, n):
     return value / (1 + 0.05)**n
 def efactor(n):
     return 2.71828183**(-n/50)
+
+def ap_factor(i, n):
+    return (1 - (1 + i)**(-n)) / i
